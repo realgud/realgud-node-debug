@@ -22,6 +22,7 @@
 (declare-function realgud:remove-ansi-schmutz 'realgud:utils)
 
 (require 'realgud)
+(require 'load-relative)
 
 (require-relative-list '("core" "init") "realgud:node-debug-")
 

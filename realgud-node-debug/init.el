@@ -27,6 +27,7 @@
 (require 'realgud)
 (require 'realgud-lang-js)
 (require 'ansi-color)
+(require 'load-relative)
 
 (defvar realgud:node-debug-pat-hash)
 (declare-function make-realgud-loc-pat (realgud-loc))

@@ -3,9 +3,9 @@
 ;; Author: Rocky Bernstein <rocky@gnu.org>
 ;; Version: 1.0.0
 ;; Package-Type: multi
-;; Package-Requires: ((realgud "1.4.5") (load-relative "1.2") (cl-lib "0.5") (emacs "24"))
+;; Package-Requires: ((realgud "1.4.5") (load-relative "1.2") (cl-lib "0.5") (emacs "25"))
 ;; URL: http://github.com/realgud/realgud-node-debug
-;; Compatibility: GNU Emacs 24.x
+;; Compatibility: GNU Emacs 25.x
 
 ;; Copyright (C) 2019 Free Software Foundation, Inc
 
@@ -40,7 +40,7 @@
 (defgroup realgud-node-debug  nil
   "Realgud interface to the older 'node debug' debugger"
   :group 'realgud
-  :version "24.3")
+  :version "25.1")
 
 (require-relative-list '( "./realgud-node-debug/main" ) "realgud-")
 (load-relative "./realgud-node-debug/main.el")
