@@ -42,8 +42,8 @@
   :group 'realgud
   :version "25.1")
 
-(require-relative-list '( "./realgud-node-debug/main" ) "realgud-")
-(load-relative "./realgud-node-debug/main.el")
+(require-relative-list '( "./realgud-node-debug/node-debug" ) "realgud-")
+(load-relative "./realgud-node-debug/node-debug.el")
 
 (provide-me)
 

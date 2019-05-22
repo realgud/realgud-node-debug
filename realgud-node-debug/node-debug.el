@@ -82,4 +82,4 @@ fringe and marginal icons."
 
 (defalias 'node-debug 'realgud:node-debug)
 
-(provide-me "realgud-")
+(provide 'realgud-node-debug)

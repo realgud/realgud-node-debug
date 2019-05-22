@@ -1,6 +1,6 @@
 dnl FIXME: pick up from realgud.el
 AC_INIT(realgud-node-debug, 1.0.0,)
-AC_CONFIG_SRCDIR(realgud-node-debug/main.el)
+AC_CONFIG_SRCDIR(realgud-node-debug/node-debug.el)
 AM_INIT_AUTOMAKE([foreign])
 AM_MAINTAINER_MODE
 
