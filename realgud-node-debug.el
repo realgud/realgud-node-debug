@@ -1,4 +1,4 @@
-;;; realgud-node-debug.el --- Realgud front-end to older nodejs "node debug" -*- lexical-binding: t -*-
+;;; realgud-node-debug.el --- Realgud front-end to older "node debug" -*- lexical-binding: t -*-
 
 ;; Author: Rocky Bernstein <rocky@gnu.org>
 ;; Version: 1.0.0
